@@ -87,6 +87,11 @@
       margin-top: 14px;
       margin-bottom: 30px;
     }
+    a.primary-button.login-button{
+      text-align: center;
+      text-decoration: none;
+      line-height: 3;
+    }
     @media (max-width: 640px) {
       .form-container {
         height: 100%;
@@ -105,17 +110,17 @@
 
       <form action="/" class="form">
         <div>
-          <label for="name" class="label">Name</label>
-          <input type="text" id="name" placeholder="Teff" class="input input-name">
+          <label for="name" class="label">Nombre</label>
+          <input type="text" id="name" placeholder="Maranzu" class="input input-name">
 
           <label for="email" class="label">Email</label>
-          <input type="text" id="email" placeholder="platzi@example.com" class="input input-email">
+          <input type="text" id="email" placeholder="maranzu@example.com" class="input input-email">
 
-          <label for="password" class="label">Password</label>
+          <label for="password" class="label">Contraseña</label>
           <input type="password" id="password" placeholder="*********" class="input input-password">
         </div>
 
-        <input type="submit" value="Create" class="primary-button login-button">
+        <a href="./index.html" class="primary-button login-button">Crear</a>
       </form>
     </div>
   </div>

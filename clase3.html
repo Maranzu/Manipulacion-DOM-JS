@@ -94,6 +94,17 @@
       margin-top: 14px;
       margin-bottom: 30px;
     }
+    a.primary-button.login-button{
+      color: var(--white);
+      text-align: center;
+      text-decoration: none;
+      line-height: 3;
+    }
+    a.secondary-button.signup-button{
+      text-align: center;
+      text-decoration: none;
+      line-height: 3;
+    }
     @media (max-width: 640px) {
       .logo {
         display: block;
@@ -107,17 +118,18 @@
       <img src="./logos/logo_yard_sale.svg" alt="logo" class="logo">
 
       <form action="/" class="form">
-        <label for="email" class="label">Email address</label>
-        <input type="text" id="email" placeholder="platzi@example.cm" class="input input-email">
+        <label for="email" class="label">Correo Electrónico</label>
+        <input type="text" id="email" placeholder="maranzu@example.cm" class="input input-email">
 
-        <label for="password" class="label">Password</label>
+        <label for="password" class="label">Contraseña</label>
         <input type="password" id="password" placeholder="*********" class="input input-password">
 
-        <input type="submit" value="Log in" class="primary-button login-button">
-        <a href="/">Forgot my password</a>
+        <a href="./index.html" class="primary-button login-button">Ingresar</a>
+
+        <a href="./clase2.html">Olvidé mi contraseña</a>
       </form>
 
-      <button class="secondary-button signup-button">Sign up</button>
+      <a href="./clase4.html" class="secondary-button signup-button">Registrarse</a>
     </div>
   </div>
 </body>

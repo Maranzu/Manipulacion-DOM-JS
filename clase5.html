@@ -78,6 +78,11 @@
       margin-top: 14px;
       margin-bottom: 30px;
     }
+    a {
+      text-align: center;
+      text-decoration: none;
+      line-height: 3;
+    }
     @media (max-width: 640px) {
       .form-container {
         height: 100%;
@@ -92,21 +97,20 @@
 <body>
   <div class="login">
     <div class="form-container">
-      <h1 class="title">My account</h1>
+      <h1 class="title">Mi Cuenta</h1>
 
       <form action="/" class="form">
         <div>
           <label for="name" class="label">Name</label>
-          <p class="value">Camila Yokoo</p>
+          <p class="value">Maranzu</p>
 
           <label for="email" class="label">Email</label>
-          <p class="value">camilayokoo@gmail.com</p>
+          <p class="value">maranzu@gmail.com</p>
 
-          <label for="password" class="label">Password</label>
+          <label for="password" class="label">Contraseña</label>
           <p class="value">*********</p>
         </div>
-
-        <input type="submit" value="Edit" class="secondary-button login-button">
+        <a href="./clase1.html" class="secondary-button login-button">Editar</a>
       </form>
     </div>
   </div>
